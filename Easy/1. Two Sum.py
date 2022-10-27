@@ -14,5 +14,3 @@ def twoSum(nums: List[int], target: int) -> List[int]:
             return [i, seen[remaining]]
 
         seen[value] = i
-
-print(twoSum([2, 3, 11, 7], 9))
